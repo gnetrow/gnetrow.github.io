@@ -1,0 +1,149 @@
+p {
+    font-size: 72px
+};
+
+h6 {
+    color: aqua;
+    padding: 5em,9em,5em,9em
+
+}
+
+p {
+    text-decoration: overline;
+    margin: .5em,.5em,.7em,.5em
+}
+
+#firstpart {
+    font-size: 18px;
+    color: rgb(122, 34, 49);
+    animation: complexTransforms 8s ease-in 0s infinite ;
+  
+}
+
+#firstparagraph {
+    text-decoration: wavy;
+    border-style: ridge;
+    border-color: rgb(85, 179, 85);
+    border-width: 15px;
+    
+
+}
+#firstparagraph:hover {
+    font-size: 50px;
+    
+}
+#firstparagraph:active {
+    color: rgb(0, 6, 122);
+}
+
+.list {
+color: cadetblue;
+display: grid;
+grid-template-areas: 
+    ". ul"
+    "ol .";
+animation: blah 6s ease-in 0s infinite ;
+}
+
+.ol {
+    grid-area: ol;
+}
+
+.ul{
+    grid-area: ul;
+
+}
+
+#colortable {
+    border-style: groove;
+    border-width: 15px;
+    border-color: sandybrown;
+    margin: .5em,.5em,.0em,.5em
+
+}
+
+#gif {
+    border-style: groove;
+    border-width: 15px;
+    border-color: bisque;
+
+}
+#gif:active {
+    color: cadetblue;
+}
+
+td {
+    border-style: solid;
+    padding: .5em
+
+
+}
+
+.tables {
+    color: blue;
+    display:flex;
+    flex-direction: row-reverse;
+    
+}
+
+#username {
+    color: rgb(164, 44, 44);
+   
+}
+
+#class:link {
+    text-decoration: none;
+    color: rgb(150, 83, 83);
+
+}
+
+#class:visited {
+    color: rgb(140, 155, 240);
+    background-color: rgb(196, 96, 146);
+}
+
+#class:hover {
+    font-size: 30px;
+    
+}
+
+#class:active {
+    background-color: rgb(60, 137, 110);
+    
+}
+
+@keyframes blah {
+    from {
+        color: yellow;
+    }
+    to {
+       color: blueviolet;
+    }
+}
+
+@keyframes complexTransforms {
+    0% {
+        transform: scale(1) skew(8deg) translateX(0)
+    }
+    100% {
+        transform:  scale(1.7) skew(1deg) translateX(100%);
+    }
+
+}
+
+#button{
+    color: darkcyan;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: gold;
+    font-size: 10px;
+}
+
+#button:hover {
+    color:darkorchid;
+    font-size: 15px;
+}
+
+#button:active {
+    background-color: red;
+}
